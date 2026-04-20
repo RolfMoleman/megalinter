@@ -215,6 +215,7 @@ RUN apk -U --no-cache upgrade \
                 libffi-dev \
                 make \
                 musl-dev \
+                g++ \
                 openssh \
                 openjdk21 \
                 py3-pyflakes \

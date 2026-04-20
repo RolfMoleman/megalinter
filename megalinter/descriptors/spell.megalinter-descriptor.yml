@@ -97,6 +97,8 @@ linters:
     examples:
       - "proselint --config .proselintrc myfile.md myfile2.txt myfile3.rst"
     install:
+      apk:
+        - g++
       dockerfile:
         - |-
           # renovate: datasource=pypi depName=proselint

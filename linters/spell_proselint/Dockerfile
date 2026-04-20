@@ -83,6 +83,7 @@ RUN apk -U --no-cache upgrade \
                 make \
                 musl-dev \
                 openssh \
+                g++ \
     && git config --global core.autocrlf true
 #APK__END
 
