@@ -461,6 +461,8 @@ RUN apk -U --no-cache upgrade \
                 libstdc++ \
                 openssl \
                 g++ \
+                abseil-cpp-dev \
+                re2-dev \
                 libcurl \
                 libgcc \
                 libxml2-dev \

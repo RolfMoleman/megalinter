@@ -99,6 +99,8 @@ linters:
     install:
       apk:
         - g++
+        - abseil-cpp-dev
+        - re2-dev
       dockerfile:
         - |-
           # renovate: datasource=pypi depName=proselint

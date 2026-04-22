@@ -216,6 +216,8 @@ RUN apk -U --no-cache upgrade \
                 make \
                 musl-dev \
                 g++ \
+                abseil-cpp-dev \
+                re2-dev \
                 openssh \
                 openjdk21 \
                 py3-pyflakes \
